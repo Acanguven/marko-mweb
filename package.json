@@ -1,0 +1,16 @@
+{
+  "name": "mweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "browser-refresh-taglib": "^1.1.0",
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "lasso": "^2.11.24",
+    "lasso-marko": "^2.4.0",
+    "marko": "^4.7.4",
+    "require-self-ref": "^2.0.1"
+  }
+}

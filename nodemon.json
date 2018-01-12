@@ -1,0 +1,4 @@
+{
+  "verbose": true,
+  "ignore": ["*.marko.js", "cache/**", "static/**", ".gitignore"]
+}
