@@ -4,7 +4,11 @@ style {
     }
 }
 
-root self=input
+root title=input.title
     @page-content
         div.h
-            test
+            test title=input.title
+        await(user from data.userResolver) client-reorder=true
+            await-placeholder
+                -- User loading...
+            -- ${user.name}
